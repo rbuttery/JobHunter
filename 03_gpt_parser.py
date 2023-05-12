@@ -14,7 +14,7 @@ logging.basicConfig(
 )
 
 # OpenAI API Key
-with open(r"C:\Users\rober\.openai\sectret.txt", 'r') as f:
+with open(r"############################", 'r') as f:
     openai.api_key = f.read()
 
 # async 
